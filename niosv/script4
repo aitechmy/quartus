@@ -1,0 +1,12 @@
+echo "running script4:
+===script4 commands=======================================
+$ cd demo
+$ git clone https://github.com/openvinotoolkit/open_model_zoo.git
+$ cd open_model_zoo
+$ git checkout 23.3.0
+=========================================================="
+
+cd demo
+git clone https://github.com/openvinotoolkit/open_model_zoo.git
+cd open_model_zoo
+git checkout 2023.3.0

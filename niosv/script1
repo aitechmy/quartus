@@ -1,0 +1,9 @@
+echo "running script1: to setup the environment.
+===script1 commands=======================================
+$ source /opt/intel/openvino_2023.3.0/setupvars.sh
+$ source /opt/intel/fpga_ai_suite_2024.2.1/dla/setupvars.sh
+=========================================================="
+
+source /opt/intel/openvino_2023.3.0/setupvars.sh
+source /opt/intel/fpga_ai_suite_2024.2.1/dla/setupvars.sh
+

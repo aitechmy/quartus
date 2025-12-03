@@ -1,0 +1,21 @@
+echo "running script6:
+===script6 commands=======================================
+$ cd \$COREDLA_WORK/demo/models/public/resnet-50-tf/FP32
+$ dla_compiler \
+--march \$COREDLA_ROOT/example_architectures/AGX7_Performance.arch \
+--network-file ./resnet-50-tf.xml \
+--foutput-format=open_vino_hetero \
+--o \$COREDLA_WORK/demo/RN50_Performance_b1.bin \
+--batch-size=1 \
+--fanalyze-performance
+=========================================================="
+
+cd $COREDLA_WORK/demo/models/public/resnet-50-tf/FP32
+
+dla_compiler \
+--march $COREDLA_ROOT/example_architectures/AGX7_Performance.arch \
+--network-file ./resnet-50-tf.xml \
+--foutput-format=open_vino_hetero \
+--o $COREDLA_WORK/demo/RN50_Performance_b1.bin \
+--batch-size=1 \
+--fanalyze-performance

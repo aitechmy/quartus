@@ -1,0 +1,14 @@
+echo "running script8:
+===script8 commands=======================================
+$ dla_create_ip \
+--flow create_ip \
+--arch=\$COREDLA_ROOT/example_architectures/AGX7_Generic.arch \
+--overwrite \
+--ip_dir \$COREDLA_WORK/ip
+=========================================================="
+
+dla_create_ip \
+--flow create_ip \
+--arch=$COREDLA_ROOT/example_architectures/AGX7_Generic.arch \
+--overwrite \
+--ip_dir $COREDLA_WORK/ip

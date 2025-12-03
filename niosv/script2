@@ -1,0 +1,11 @@
+echo "running script2: confirm the FPGA AI Suite compiler to start working with the repository.
+===script2 commands=======================================
+$ dla_compiler
+> --march \$COREDLA_ROOT/example_architectures/AGX7_Performance.arch
+> --fanalyze-area
+=========================================================="
+
+dla_compiler \
+--march $COREDLA_ROOT/example_architectures/AGX7_Performance.arch \
+--fanalyze-area
+

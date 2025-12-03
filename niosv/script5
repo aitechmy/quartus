@@ -1,0 +1,11 @@
+echo "running script5:
+===script5 commands=======================================
+$ source ~/build-openvino-dev/openvino_env/bin/activate
+$ omz_downloader --name resnet-50-tf --output_dir \$COREDLA_WORK/demo/models/
+$ omz_converter --name resnet-50-tf --download_dir \$COREDLA_WORK/demo/models/ --output_dir $COREDLA_WORK/demo/models/
+=========================================================="
+
+source ~/build-openvino-dev/openvino_env/bin/activate
+omz_downloader --name resnet-50-tf --output_dir $COREDLA_WORK/demo/models/
+omz_converter --name resnet-50-tf --download_dir $COREDLA_WORK/demo/models/ --output_dir $COREDLA_WORK/demo/models/
+

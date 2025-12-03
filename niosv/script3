@@ -1,0 +1,10 @@
+echo "running script3:
+===script3 commands=======================================
+#Create a working directory
+$ mkdir coredla_work && cd coredla_work
+#Source the environment using the following command
+$ source dla_init_local_directory.sh
+=========================================================="
+
+mkdir coredla_work && cd coredla_work
+source dla_init_local_directory.sh
